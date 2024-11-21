@@ -1,0 +1,15 @@
+* Edit the file: /usr/etc/gpib.conf
+
+sudo su
+* Enable the GPIB one-by-one or run by ./gpibinit.sh
+ - raspi-config nonint do_spi 1
+ - modprobe gpib_bitbang
+ - gpib_config
+ - raspi-config nonint do_spi 0
+ - modprobe gpib_bitbang
+ - gpib_config
+
+* Virtual Env.
+ - cd coding
+ - source ./venv/bin/activate
+ - deactivate
