@@ -1,0 +1,12 @@
+* Edit the file: /usr/local/etc/gpib.conf
+
+* Enable the GPIB one-by-one or run by sudo ./gpibinit.sh
+sudo modprobe ni_usb_gpib
+sudo ldconfig
+sudo gpib_config
+
+
+* Virtual Env.
+ - . ./venv/bin/activate
+ - deactivate
+
