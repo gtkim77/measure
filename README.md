@@ -1,4 +1,4 @@
-<h1>Measurement programs for the electrical characterization</h1>
+<h1>Setup of GPIB raspberry conrollers for the electrical characterization</h1>
 
 python programs for controlling a GPIB4PI card or an NI-GPIB-USB-HS. <br>
 
